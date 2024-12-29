@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-links">
+            <a href="#home">About me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header id="home" class="hero" style="justify-content: space-evenly;">
+        <section  class="section section2">
+            <div class="card-content">
+                <h2 class="card-title">Backend Developer</h2>
+                <p class="card-description">Computer Science student at SR University with 9.71 CGPA.<br> Experienced in <span style="color: #FF7B00;"> backend development and frontend development</span>.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="hero-content">
+            <img src="H3.png" alt="Profile Photo" class="profile-photo">
+            <div class="hero-title">
+                <h1>B.Srikar</h1>
+                <span class="role">Backend Developer</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2><br>
+            <div class="projects-grid">
+                <div class="project-card" >
+                    <div class="project-info" >
+                        <a href="https://srikarpatel91.github.io/HCI_02_AnimeSenpai/" ><img src="Ani.png"></a>
+                        <h2>Anime Senpai</h2>
+                        <p>An interface of a Anime Watching Website.</p>
+                        <h3><a href="https://srikarpatel91.github.io/HCI_02_AnimeSenpai/" style="color: var(--accent)">Anime Senpai</a></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2>Skills</h2><br>
+            <div class="skill-bar">
+                <h4>Frontend Developer</h4>
+                <div class="languages-grid">
+                    <div class="language-card">
+                        <div ><img src="https://images.vexels.com/media/users/3/166383/isolated/preview/6024bc5746d7436c727825dc4fc23c22-html-programming-language-icon-by-vexels.png" width="150px"></div>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="language-card">
+                        <div><img src="https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png" width="130px"></div>
+                        <h3>CSS</h3>
+
+                    </div>
+                    <div class="language-card">
+                        <div ><img src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png" width="150px"></div>
+                        <h3>JavaScript</h3>
+                        <div class="chakra-bar">
+                            <div class="chakra-fill" style="width: 82%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="skill-bar">
+                <h4>Backend Developer</h4>
+            </div>
+
+            <div class="languages-grid">
+                <div class="language-card">
+                    <div ><img src="https://logohistory.net/wp-content/uploads/2023/06/Python-Emblem.png" height="100px"></div>
+                    <h3>Python</h3>
+    
+                </div>
+                <div class="language-card">
+                    <div ><img src="https://static.vecteezy.com/system/resources/previews/022/100/214/original/java-logo-transparent-free-png.png" width="150Spx"></div>
+                    <h3>Java</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+           <h2>Contact Me</h2><br>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message (Believe it!)" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
