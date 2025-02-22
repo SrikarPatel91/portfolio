@@ -5,7 +5,7 @@ function sendMail(event) {
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
 
-    let mailtoLink = `mailto:your-email@example.com?subject=Contact Form Submission&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+    let mailtoLink = `mailto:srikarpatel9177@gmail.com?subject=Contact Form Submission&body=Name: ${encodeURIComponent(name)}%0D%0AEmail: ${encodeURIComponent(email)}%0D%0AMessage: ${encodeURIComponent(message)}`;
     
     window.location.href = mailtoLink;
 }
